@@ -1,0 +1,42 @@
+.Home {
+  text-align: center;
+}
+#search-bar {
+  border-radius: 50px;
+  border-color: 2px solid black;
+  width: 500px;
+  height: 30px;
+  outline: none !important;
+  font-size: medium;
+  margin: 20px;
+}
+#search-bar::placeholder {
+  font-size: medium;
+  padding-left: 10px;
+}
+
+.Tags {
+  display: flex;
+}
+#postbtn {
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  text-decoration: none;
+  background-color: rgb(57, 223, 107);
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px 5px 10px 5px;
+  outline: none !important;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.Taginfo {
+  margin: 10px;
+  flex-direction: column;
+  background-color: black;
+  font-style: normal;
+  color: white;
+  cursor: pointer;
+}
